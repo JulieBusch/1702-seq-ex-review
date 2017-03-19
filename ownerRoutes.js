@@ -1,7 +1,6 @@
 var express = require('express');
 var router = express.Router();
 
-var Cat = require('./models').Cat;
 var Owner = require('./models').Owner;
 
 module.exports = router;

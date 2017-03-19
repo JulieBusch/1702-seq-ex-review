@@ -14,6 +14,8 @@
 * I highly recommend downloading the Postman tool for testing routes
     * You can use Postman to send all types of requests to your localhost and see the responses
 
+### There's a review video featuring this repo [here!](https://youtu.be/W4KgHdlAYu4)
+
 ### Try adding your own methods and routes!
 
 * See if you can use the methods given to you by the "Owner has many cats" relation!

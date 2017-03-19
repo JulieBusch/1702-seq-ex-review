@@ -8,7 +8,7 @@ module.exports = router;
 router.get('/orangefluff', function(req, res, next) {
   Cat.findFluffyOrangeCats()
     .then(function(cats) {
-      res.send(`There is/are ${cats.length} fluffy orange cat(s)!`)
+      res.send(`There is/are ${cats.length} fluffy orange cat(s)!`);
     })
     .catch(next);
 });
