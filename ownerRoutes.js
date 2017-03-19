@@ -26,3 +26,16 @@ router.post('/:name', function(req, res, next) {
     .catch(next);
 });
 
+router.put('/:ownerId/adopt/', function(req, res, next) {
+  var catId = req.query.catId ? req.query.catId : undefined;
+
+  Owner.findById(req.params.ownerId)
+    .then(function(owner) {
+      owner.adopt(catId);
+    })
+    .then(function() {
+      res.sendStatus(200);
+    })
+    .catch(next);
+});
+

@@ -52,7 +52,8 @@ var Cat = db.define('cats', {
                     color: 'orange',
                     fluffiness: 'longhaired'
                 }
-            });
+            })
+            .catch();
         }
     },
 
@@ -88,6 +89,20 @@ var Owner = db.define('owners', {
                 return `${this.name} is a crazy cat person!`;
             } else {
                 return `${this.name} is just a regular cat person!`;
+            }
+        },
+
+        adopt: function(catId) {
+            if (catId) {
+                this.addCat(catId);
+            } else {
+                Cat.findOne({
+                    where: {
+                        ownerId: null
+                    }
+                })
+                    .then(cat => this.addCat(cat))
+                    .catch();
             }
         }
     }
