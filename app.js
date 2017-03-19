@@ -27,5 +27,4 @@ db.sync()
     app.listen(3001, function() {
       console.log('server is listening on port 3001!');
     })
-  .catch();
   });
