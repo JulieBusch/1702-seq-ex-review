@@ -16,11 +16,13 @@
 
 ### There's a review video featuring this repo [here!](https://youtu.be/W4KgHdlAYu4)
 
-### Try adding your own methods and routes!
+### Adopt-a-Cat Challenge: try adding your own method and route!
 
 * See if you can use the methods given to you by the "Owner has many cats" relation!
     * Create an owner instance method called `adopt` that is a function that can be passed the id of a cat and then associates that cat with its new owner! (Have the owner adopt a random cat if no id is passed in.)
     * Then make a PUT route in the owner routes that will allow an owner to adopt a cat!
     * You can see a solution to this in the `adoption-solution` branch, which is discussed in [this video](https://youtu.be/L5jDrKZz0aE)!
+    
+* Play around and see what other methods and routes you can come up with!
 
 ### That's it! Happy Studying!
