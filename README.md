@@ -1,4 +1,4 @@
-# Cats and Owners - a Sequelize/Express Review
+# Catstravaganza - a Sequelize/Express Review
 ### (by Julie Busch!)
 
 
