@@ -4,7 +4,7 @@
 
 ### Start it up
 
-* `$ createdb catstravaganza` (first time setup only)
+* `$ createdb catstravaganza` (first time setup only; assumes you have PostgreSQL and its CLI tool installed)
 * `$ npm install`
 * `$ npm start`
 
